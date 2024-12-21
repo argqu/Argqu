@@ -1,6 +1,6 @@
-# Eliza
+# argqu
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+<img src="./docs/static/img/argqu_banner.jpg" alt="argqu Banner" width="100%" />
 
 ## Fonctionnalités
 
@@ -12,7 +12,7 @@
 -   🚀 Grande personnalisation possible : création de nouveaux clients et de nouvelles actions
 -   📦 Simplicité d'utilisation
 
-Que pouvez-vous faire avec Eliza?
+Que pouvez-vous faire avec argqu?
 
 -   🤖 Chatbot
 -   🕵 Agents autonomes
@@ -46,7 +46,7 @@ cp .env.example .env
     - Lancer la commande `pnpm start --characters="path/to/your/character.json"`
     - Plusieurs fichiers personnages peuvent être ajoutés en même temps
 
-### Lancer Eliza
+### Lancer argqu
 
 Après avoir terminé la configuration et les fichiers personnage, lancer le bot en tapant la ligne de commande suivante:
 
@@ -70,15 +70,15 @@ pnpm install --include=optional sharp
 
 ### Communauté et réseaux sociaux
 
--   [GitHub](https://github.com/ai16z/eliza/issues). Pour partager les bugs découverts lors de l'utilisation d'Eliza, et proposer de nouvelles fonctionnalités.
--   [Discord](https://discord.gg/ai16z). Pour partager ses applications et rencontrer la communauté.
+-   [GitHub](https://github.com/argqu/argqu/issues). Pour partager les bugs découverts lors de l'utilisation d'argqu, et proposer de nouvelles fonctionnalités.
+-   [Discord](https://discord.gg/argqu). Pour partager ses applications et rencontrer la communauté.
 
 ## Contributeurs
 
-<a href="https://github.com/ai16z/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ai16z/eliza" />
+<a href="https://github.com/argqu/argqu/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=argqu/argqu" />
 </a>
 
 ## Historique d'étoiles
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ai16z/eliza&type=Date)](https://star-history.com/#ai16z/eliza&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=argqu/argqu&type=Date)](https://star-history.com/#argqu/argqu&Date)

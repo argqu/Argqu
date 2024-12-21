@@ -1,12 +1,12 @@
-# Eliza 🤖
+# argqu 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/argqu_banner.jpg" alt="argqu Banner" width="100%" />
 </div>
 
 <div align="center">
 
-  📖 [문서](https://ai16z.github.io/eliza/) | 🎯 [예시](https://github.com/thejoven/awesome-eliza)
+  📖 [문서](https://argqu.github.io/argqu/) | 🎯 [예시](https://github.com/thejoven/awesome-argqu)
 
 </div>
 
@@ -21,7 +21,7 @@
 -   ☁️ 다양한 AI 모델 지원: local Llama, OpenAI, Anthropic, Groq 등 다양한 AI 모델을 지원합니다
 -   📦 즐겁게 개발해 봐요!
 
-## 🎯 eliza로 어떤걸 만들 수 있을까요?
+## 🎯 argqu로 어떤걸 만들 수 있을까요?
 
 -   🤖 챗봇 개발
 -   🕵 ️AI가 자율적으로 결과를 만들어줘요!
@@ -42,29 +42,29 @@
 ### Starter 사용 (권장)
 
 ```bash
-git clone https://github.com/ai16z/eliza-starter.git
+git clone https://github.com/argqu/argqu-starter.git
 
 cp .env.example .env
 
 pnpm i && pnpm start
 ```
 
-[문서](https://ai16z.github.io/eliza/)를 참고하여 Eliza를 커스마이징 방법을 확인하세요.
+[문서](https://argqu.github.io/argqu/)를 참고하여 argqu를 커스마이징 방법을 확인하세요.
 
 ### 직접 실행하기 (경험자만 권장)
 
 ```bash
 # 리포지토리 클론
-git clone https://github.com/ai16z/eliza.git
+git clone https://github.com/argqu/argqu.git
 
 # 최신 릴리스로 체크아웃
 # 프로젝트가 빠르게 수정되므로 최신 릴리스를 체크아웃하는 것을 권장합니다.
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### Gitpod로 Eliza 시작
+### Gitpod로 argqu 시작
 
-[![Gitpod로 열기](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ai16z/eliza/tree/main)
+[![Gitpod로 열기](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/argqu/argqu/tree/main)
 
 ### .env 파일 편집
 
@@ -76,7 +76,7 @@ cp .env.example .env
 
 참고: .env는 선택 사항입니다. 여러 개의 에이전트를 실행하려는 경우, 캐릭터 JSON 파일을 통해 비밀 변수를 전달할 수 있습니다.
 
-### Eliza 자동 시작
+### argqu 자동 시작
 
 아래 명령은 프로젝트를 설정하고 기본 캐릭터와 함께 봇을 시작합니다.
 ```bash
@@ -93,7 +93,7 @@ sh scripts/start.sh
 3. X (Twitter) 연결:
     - 캐릭터 파일에서 `"clients": []`를 `"clients": ["twitter"]`로 변경합니다.
 
-### Eliza 수동 시작
+### argqu 수동 시작
 
 ```bash
 pnpm i
@@ -114,15 +114,15 @@ pnpm install --include=optional sharp
 
 ### Community & contact
 
--   [Github Issues](https://github.com/ai16z/eliza/issues). 용도: Eliza 사용 중 발견된 버그 리포트, 기능 제안.
--   [Discord](https://discord.gg/ai16z). 용도: 애플리케이션 공유 및 커뮤니티 활동.
+-   [Github Issues](https://github.com/argqu/argqu/issues). 용도: argqu 사용 중 발견된 버그 리포트, 기능 제안.
+-   [Discord](https://discord.gg/argqu). 용도: 애플리케이션 공유 및 커뮤니티 활동.
 
 ## 컨트리뷰터
 
-<a href="https://github.com/ai16z/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ai16z/eliza" />
+<a href="https://github.com/argqu/argqu/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=argqu/argqu" />
 </a>
 
 ## 스타 기록
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ai16z/eliza&type=Date)](https://star-history.com/#ai16z/eliza&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=argqu/argqu&type=Date)](https://star-history.com/#argqu/argqu&Date)

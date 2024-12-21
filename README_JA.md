@@ -1,6 +1,6 @@
-# Eliza
+# argqu
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+<img src="./docs/static/img/argqu_banner.jpg" alt="argqu Banner" width="100%" />
 
 ## 機能
 
@@ -43,11 +43,11 @@ pnpm i
 pnpm start
 ```
 
-# Elizaのカスタマイズ
+# argquのカスタマイズ
 
 ### カスタムアクションの追加
 
-コアディレクトリでのGitの競合を避けるために、カスタムアクションを`custom_actions`ディレクトリに追加し、それを`elizaConfig.yaml`ファイルに追加することをお勧めします。例については`elizaConfig.example.yaml`ファイルを参照してください。
+コアディレクトリでのGitの競合を避けるために、カスタムアクションを`custom_actions`ディレクトリに追加し、それを`argquConfig.yaml`ファイルに追加することをお勧めします。例については`argquConfig.example.yaml`ファイルを参照してください。
 
 ## 異なるモデルでの実行
 
