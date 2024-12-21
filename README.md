@@ -1,5 +1,4 @@
-# ARGQU \[🌐\]  [X ARGQU]https://x.com/argqumodule)<img src="./docs/static/img/x.png" alt="x" width="50px" /> (
-
+# ARGQU \[🌐\]  [X ARGQU](https://x.com/argqumodule)<img src="./docs/static/img/x.png" alt="x" width="50px" />
 <div align="center">
   <img src="./docs/static/img/argqu_banner.png" alt="argqu Banner" width="100%" />
 </div>
