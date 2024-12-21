@@ -1,18 +1,17 @@
-# Eliza 🤖
+# argqu 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/argqu_banner.png" alt="argqu Banner" width="100%" />
 </div>
 
 <div align="center">
 
-  📖 [Documentation](https://ai16z.github.io/eliza/) | 🎯 [Examples](https://github.com/thejoven/awesome-eliza)
-
+  📖 [Documentation](https://github.com/argqu/Argqu) 
 </div>
 
 ## 🌍 README Translations
 
-[中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md) | [ไทย](./README_TH.md) | [Deutsch](./README_DE.md) | [Tiếng Việt](./README_VI.md) | [עִברִית](https://github.com/ai16z/Elisa/blob/main/README_HE.md)
+[中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) 
 
 ## ✨ Features
 
@@ -21,19 +20,11 @@
 -   👥 Multi-agent and room support
 -   📚 Easily ingest and interact with your documents
 -   💾 Retrievable memory and document store
--   🚀 Highly extensible - create your own actions and clients
--   ☁️ Supports many models (local Llama, OpenAI, Anthropic, Groq, etc.)
--   📦 Just works!
-
-## Video Tutorials
-[AI Agent Dev School](https://www.youtube.com/watch?v=ArptLpQiKfI&list=PLx5pnFXdPTRzWla0RaOxALTSTnVq53fKL)
 
 ## 🎯 Use Cases
 
 -   🤖 Chatbots
 -   🕵️ Autonomous Agents
--   📈 Business Process Handling
--   🎮 Video Game NPCs
 -   🧠 Trading
 
 ## 🚀 Quick Start
@@ -49,28 +40,28 @@
 ### Use the Starter (Recommended)
 
 ```bash
-git clone https://github.com/ai16z/eliza-starter.git
-cd eliza-starter
+git clone https://github.com/argqu/argqu-starter.git
+cd argqu-starter
 cp .env.example .env
 pnpm i && pnpm build && pnpm start
 ```
 
-Then read the [Documentation](https://ai16z.github.io/eliza/) to learn how to customize your Eliza.
+Then read the [Documentation](https://argqu.github.io/argqu/) to learn how to customize your argqu.
 
-### Manually Start Eliza (Only recommended if you know what you are doing)
+### Manually Start argqu (Only recommended if you know what you are doing)
 
 ```bash
 # Clone the repository
-git clone https://github.com/ai16z/eliza.git
+git clone https://github.com/argqu/argqu.git
 
 # Checkout the latest release
 # This project iterates fast, so we recommend checking out the latest release
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### Start Eliza with Gitpod
+### Start argqu with Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ai16z/eliza/tree/main)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/argqu/argqu/tree/main)
 
 ### Edit the .env file
 
@@ -82,7 +73,7 @@ cp .env.example .env
 
 Note: .env is optional. If your planning to run multiple distinct agents, you can pass secrets through the character JSON
 
-### Automatically Start Eliza
+### Automatically Start argqu
 
 This will run everything to setup the project and start the bot with the default character.
 
@@ -100,7 +91,7 @@ sh scripts/start.sh
 3. Connect with X (Twitter)
     - change `"clients": []` to `"clients": ["twitter"]` in the character file to connect with X
 
-### Manually Start Eliza
+### Manually Start argqu
 
 ```bash
 pnpm i
@@ -121,15 +112,15 @@ pnpm install --include=optional sharp
 
 ### Community & contact
 
--   [GitHub Issues](https://github.com/ai16z/eliza/issues). Best for: bugs you encounter using Eliza, and feature proposals.
--   [Discord](https://discord.gg/ai16z). Best for: sharing your applications and hanging out with the community.
+-   [GitHub Issues](https://github.com/argqu/argqu/issues). Best for: bugs you encounter using argqu, and feature proposals.
+-   [Discord](https://discord.gg/argqu). Best for: sharing your applications and hanging out with the community.
 
 ## Contributors
 
-<a href="https://github.com/ai16z/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ai16z/eliza" />
+<a href="https://github.com/argqu/argqu/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=argqu/argqu" />
 </a>
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ai16z/eliza&type=Date)](https://star-history.com/#ai16z/eliza&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=argqu/argqu&type=Date)](https://star-history.com/#argqu/argqu&Date)
