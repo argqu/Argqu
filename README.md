@@ -120,17 +120,5 @@ pnpm install --include=optional sharp
 ## 🌟 Join the Community
 
 - **[GitHub Issues](https://github.com/argqu/argqu/issues)**: Report bugs or request features.
-- **Contributors**:  
-  <a href="https://github.com/argqu/argqu/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=argqu/argqu" />
-  </a>
-
----
-
-## 📊 Star History
-
-Track our growth:
-
-[![Star History Chart](https://api.star-history.com/svg?repos=argqu/argqu&type=Date)](https://star-history.com/#argqu/argqu&Date)
 
 ---
