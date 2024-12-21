@@ -1,12 +1,12 @@
 {
-    "name": "eliza",
+    "name": "argqu",
     "scripts": {
         "preinstall": "npx only-allow pnpm",
-        "build": "turbo run build --filter=!eliza-docs",
+        "build": "turbo run build --filter=!argqu-docs",
         "build-docker": "turbo run build",
-        "start": "pnpm --filter \"@ai16z/agent\" start --isRoot",
+        "start": "pnpm --filter \"@argqu/agent\" start --isRoot",
         "start:client": "pnpm --dir client dev",
-        "start:debug": "cross-env NODE_ENV=development VERBOSE=true DEBUG=eliza:* pnpm --filter \"@ai16z/agent\" start --isRoot",
+        "start:debug": "cross-env NODE_ENV=development VERBOSE=true DEBUG=argqu:* pnpm --filter \"@argqu/agent\" start --isRoot",
         "dev": "bash ./scripts/dev.sh",
         "lint": "bash ./scripts/lint.sh",
         "prettier-check": "npx prettier --check --cache .",
