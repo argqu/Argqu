@@ -65,7 +65,7 @@ pnpm i && pnpm build && pnpm start
 ```
 
 2. **Customize and Explore**:  
-   Dive into the [Documentation](https://argqu.github.io/argqu/) for advanced configuration.
+   Dive into the [Documentation](https://github.com/argqu/Argqu) for advanced configuration.
 
 ---
 
